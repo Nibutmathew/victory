@@ -12,7 +12,7 @@ n=`expr $n / 10`
 done
 if [ $s -eq $t ]
 then
-echo "Amstrong number"
+echo "$t Amstrong number"
 else
-echo "Not an Armstrong number"
+echo "$t Not an Armstrong number"
 fi
